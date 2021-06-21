@@ -1,0 +1,56 @@
+.card {
+    margin: 5mm;
+    border-style: solid;
+    border-width: 0.8mm;
+    border-color: black;
+    border-radius: 3mm;
+    width: 63mm;
+    height: 88mm;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.card_panel {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+
+
+.title_panel {
+	height: 10mm;
+	text-align: center;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 12pt;
+	line-height: 8.5mm;
+}
+
+.bg_a {
+	background: rgb(52,143,235,0.5);
+}
+
+.bg_b {
+	background: rgb(232,232,37,0.5);
+}
+
+.bg_c {
+	background: rgb(232,76,37,0.5);
+}
+.border_black {
+	border: 0.8mm solid rgb(0,0,0,0.9);
+}
+
+.bg_black {
+	background: rgb(000,000,000,1);
+}
+
+.bg_white {
+	background: rgb(255,255,255,1);
+}
