@@ -18,18 +18,41 @@
 	height: 100%;
 	width: 100%;
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column nowrap;
 	justify-content: flex-start;
 }
 
+.card_art {
+  height: 40%;
+  text-align: center;
+	font-family: "Arial";
+	font-weight: bold;
+}
 
 .title_panel {
 	height: 10mm;
-	text-align: center;
 	font-family: "Arial";
 	font-weight: bold;
 	font-size: 12pt;
-	line-height: 8.5mm;
+	line-height: 10mm;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  }
+
+.ability_desc {
+  text-align: left;
+  width: 100%;
+}
+
+.ability_icon {
+  width: 10mm;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.7mm;
+  border-color: black;
+  border-radius: 1.5mm;
+  margin: .5mm;
 }
 
 .bg_a {
