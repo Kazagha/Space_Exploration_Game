@@ -38,13 +38,11 @@
 }
 
 .abilities_list {
-	height: 10mm;
-	font-family: "Arial";
-	font-weight: bold;
-	font-size: 10pt;
-	line-height: 10mm;
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 8pt;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: flex-end;
   }
 
@@ -54,15 +52,23 @@
   padding-left: 1mm;
 }
 
+.ability {
+  height: 15mm;
+  display: flex;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
 .ability_tag {
   width: 10mm;
   height: 100%;
   text-align: center;
-  border-style: solid;
-  border-width: 0.7mm;
-  border-color: black;
-  border-radius: 1.5mm;
-  margin: .5mm;
+  #border-style: solid;
+  #border-width: .5mm;
+  #border-color: black;
+  #border-radius: 1.5mm;
+  margin-left: .5mm;
   font-size: 8pt;
   display: flex;
   flex-flow: column nowrap;
@@ -71,17 +77,19 @@
 }
 
 .tag_num {
-  height: 5mm;
+  height: 50%;
   text-align: center;
-  line-height: 4mm;
+  line-height: 6mm;
+  font-size: 12pt;
 }
 
 .tag_icon{
-	height: 4mm;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%)
+	height: 50%;
+	width: 100%;
+	#position: absolute;
+	#top: 50%;
+	#left: 50%;
+	#transform: translate(-50%, -50%)
 }
 
 .bg_a {
