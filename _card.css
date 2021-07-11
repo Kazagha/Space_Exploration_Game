@@ -92,6 +92,10 @@
 	#transform: translate(-50%, -50%)
 }
 
+.hide {
+	display: none;
+}
+
 .bg_a {
 	background: rgb(52,143,235,0.5);
 }
