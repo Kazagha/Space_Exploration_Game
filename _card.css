@@ -31,10 +31,10 @@
 
 .card_title {
   height: 10mm;
-  line-height: 10mm;
-  font-size: 12pt;
-  font-weight: bold;
+  line-height: 4mm;
+  #font-size: 8pt;  
   text-align: center;  
+  font-family: "Science Gothic 2";
 }
 
 .abilities_list {
@@ -93,7 +93,7 @@
 	#width: 100%;
 	width: 6mm;
 	#display: block;
-	transform: translate(-7%, 10%)
+	transform: translate(-7%, 0%)
 }
 
 .tag_icon_only {
@@ -134,4 +134,39 @@
 
 .bg_white {
 	background: rgb(255,255,255,1);
+}
+
+@font-face {
+  font-family: 'Science Gothic VF';
+  src: url('ScienceGothic[YOPQ,wdth,wght,slnt].ttf') format("truetype-variations");
+  font-weight: 1 999;
+}
+
+.sg, .sg1, .sg2, .sg_num {
+  font-family: "Science Gothic VF";
+}
+
+.sg {
+  color: brown;
+  font-variation-settings: "wght" 375, "wdth" 75, "YOPQ" 45;
+}
+
+
+.sg1 {
+  color: lime;
+  font-variation-settings: "wght" 400, "wdth" 100, "YOPQ" 75;
+}
+
+.sg2 {
+  color: blue;  
+  #font-variation-settings: "wght" 600, "wdth" 150, "YOPQ" 75;
+  font-variation-settings: "wght" 400, "wdth" 100, "YOPQ" 20, "slnt" -10;
+   text-transform: uppercase;
+  font-size: 12pt;
+}
+
+.sg_num, .tag_num {
+  color: red;
+  font-variation-settings: "wght" 400, "wdth" 125, "YOPQ" 100;
+  font-size: 10pt;
 }
