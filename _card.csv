@@ -1,6 +1,6 @@
 card_name|Image|Cost|Type|Cubes|Ability_1|Roll_1|Icon_1A|Num_1A|Icon_1B|Num_1B|Icon_1C|Num_1C|Text_1|Ability_2|Roll_2|Icon_2A|Num_2A|Icon_2B|Num_2B|Icon_2C|Num_2C|Text_2|Ability_3|Roll_3|Icon_3A|Num_3A|Icon_3B|Num_3B|Icon_3C|Num_3C|Text_3|Flavour Text|Image|Comments / Notes
-Rockets ||300|Conquest|2 / 4|Barrage|5|roll|5|attack|4||||||||||||||||||||||||
-Lasers ||300|Conquest|1 / 1 / 1||3|roll|3|attack|2|||||3|damage|2||||||||||||||Targeted: Re-rolls can be used on adjacent cards|||
+Rockets||300|Conquest|2 / 4|Barrage|5|roll|5|attack|4||||||||||||||||||||||||
+Lasers||300|Conquest|1 / 1 / 1||3|roll|3|attack|2|||||3|damage|2||||||||||||||Targeted: Re-rolls can be used on adjacent cards|||
 Twin-Linked Laser ||300|Conquest|2 / 2||3|roll|3|attack|2|||||3|damage|2||||||||||||||Targeted: Re-rolls can be used on adjacent cards|||Searing: Add +2 to the roll for each active conquest card / laser module
 Point Defence||300|Conquest|0 / 0 / 1||1|roll|1|attack|1|||||2|damage|1|||||||3|damage|1||||||||Forceful: Reroll X ballistics attack dice for each adjacent conquest card 
 Railgun||300|Conquest|1 / 2 / 3||4|roll|4|attack|2|||||5|damage|2|||||||6 |damage|2||||||||
