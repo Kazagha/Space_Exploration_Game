@@ -1,7 +1,7 @@
 .card {
     margin: 5mm;
     border-style: solid;
-    border-width: 0.8mm;
+    border-width: 1mm;
     border-color: black;
     border-radius: 3mm;
     width: 63mm;
@@ -23,14 +23,14 @@
 }
 
 .card_art {
-  height: 40%;
+  height: 50%;
   text-align: center;
 	font-family: "Arial";
 	font-weight: bold;
 }
 
 .card_title {
-  height: 10mm;
+  height: 8mm;
   line-height: 4mm;
   #font-size: 8pt;  
   text-align: center;  
@@ -49,9 +49,22 @@
 .ability_desc {
   text-align: left;
   width: 100%;  
-  padding-left: 1mm;
+  margin-left: 0.5mm;
   margin-right: 0.5mm;
-  
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+}
+
+.ability_text {
+  height: 100%;
+}
+
+.ability_title { 
+  height: 2.5mm;
+  text-align: center;
+  line-height: 2.5mm;
+  background: rgb(0,0,0,0.5);
 }
 
 .ability {
@@ -153,14 +166,14 @@
 
 
 .sg1 {
-  color: lime;
-  font-variation-settings: "wght" 400, "wdth" 100, "YOPQ" 75;
+  color: white;
+  font-variation-settings: "wght" 450, "wdth" 75, "YOPQ" 45;
 }
 
 .sg2 {
   color: blue;  
   #font-variation-settings: "wght" 600, "wdth" 150, "YOPQ" 75;
-  font-variation-settings: "wght" 400, "wdth" 100, "YOPQ" 20, "slnt" -10;
+  font-variation-settings: "wght" 450, "wdth" 100, "YOPQ" 20, "slnt" -10;
    text-transform: uppercase;
   font-size: 12pt;
 }
