@@ -50,14 +50,16 @@
   text-align: left;
   width: 100%;  
   margin-left: 0.5mm;
-  margin-right: 0.5mm;
+  margin-right: 0.5mm;  
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
+  
 }
 
 .ability_text {
   height: 100%;
+  padding: 0.5mm;
 }
 
 .ability_title { 
@@ -73,6 +75,7 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
+  margin-top: 0.5mm;
 }
 
 .ability_tag {
