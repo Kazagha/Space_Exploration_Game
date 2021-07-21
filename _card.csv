@@ -1,45 +1,45 @@
-card_name|image|cost|Type|ability_1|Roll_1|Icon_1A|Num_1A|Icon_1B|Num_1B|Icon_1C|Num_1C|text_1|ability_2|Roll_2|Icon_2A|Num_2A|Icon_2B|Num_2B|Icon_2C|Num_2C|text_2|ability_3|Roll_3|Icon_3A|Num_3A|Icon_3B|Num_3B|Icon_3C|Num_3C|text_3|Flavour Text|Image|Comments / Notes
-Missile System Control Room ||300|Conquest|Hunter Seeker Missile|5|roll|5|attack|4||||||||||||||||||||||||
-Rocket Bay||300|Conquest|Missiles||||||||Attack enemy for 2 points of damage|Missile Swarm|5|dice|2|||||Attack all enemies for 2 points of damage||||||||||||
-Laser||300|Conquest|Zap|3|roll|3|attack|2||||Focused |3|damage|2|||||Reduce activation dice of this card by 1 for each adjacent laser or technology card|||||||||Targeted: Re-rolls can be used on adjacent cards|||
-Medium||300|Conquest|Zzap|||||||||Focused|3|damage|2|||||Reduce activation dice of this card by 1 for each adjacent laser or technology card||||||||||||
-Heavy Laser ||300|Conquest|Zzzap|3|roll|3|attack|2||||Foucsed|3|damage|2|||||Reduce activation dice of this card by 1 for each adjacent laser or technology card|||||||||Targeted: Re-rolls can be used on adjacent cards|||Searing: Add +2 to the roll for each active conquest card / laser module
-Light Railgun||300|Conquest|Slug|1|roll|1|attack|1||||Slug|2|damage|1|||||||3|damage|1||||||||Forceful: Reroll X ballistics attack dice for each adjacent conquest card 
-Heavy Railgun||300|Conquest|Heavy Slug|4|roll|4|attack|2||||Heavy Slug|5|damage|2|||||||6 |damage|2||||||||
-Gatling Gun|||Conquest|Point Defence|||||||||||||||||||||||||||||
-Hostile Negotiation||300|Conquest||4|||ability||||Cubes spent on Conquest abilities count for half their value in Leadership cubes. ||||||||||||||||||"Conquest cards are counted as leadership cards for adjacency bonuses| inculding this card "|||
-Ablative Armour||300|Conquest|Protect||passive||||||This component is always damaged first|Sacrificial||||||||When damaged add a counter to this card. After adding the third counter destroy this card. |||||||||+2 AC|||Laser - Reliable (more dice with less damage)
-Reinforced Hull||300|Conquest|Sturdy||passive||||||Add 4 to maximum HP||||||||||||||||||+1 HP for each adjacent card |||Ballistic (faster? or better synergy) 
-Experimental drives||300|Conquest||||||||||||||||||||||||||||||Rockets - Expensive (large damage)
-Regerative Plating||300|Conquest|Knit Together|6|roll|6|damage|2|||Restore +2 HP per turn |||||||||||||||||||||
-Deformation||300|Conquest|Swell|5|roll|5|2|1|shield|2|Take 2 hull damage. Reduce damage from each source by 2 point to a minimum of 1|Seep||||||||Regenerate 1 HP at the end of this turn ||||||||||||This card should be an event not a module
-Retro-fitted Cargo Hold||300|Conquest||||||||||Cargo Hold||||||||Increase game side by 1 card||||||||||Dice Pool Allocation - Check Warcry Rules||"Iniatiative step for weapons| increased or decreased by dice rolls?"
-||300|||||||||||||||||||||||||||||||
-Contraband||300|Leadership|Dealer||roll|6|||||This ability is worth 500 credits at the market place |Cargo Hold||passive||||||Increase hand size by 1 card|Unwanted Attention||||||||"In civilized space| draw an encounter for each 6 rolled during activation."|||
-|||||||||||||||||||||||||||||||||
-AI Module: Evasive Manouvers||300|Leadership|||roll|5|||||Halve the damage of 1 incoming attack |||||||||||||||||||||
-AI Module: Dodge ||300|Leadership|Co-Routine Dodge||roll||roll|4|||Reallocate module damage to an adjacent card|Co-routine Dodge II|6|roll||||||Prevent damage to 1 module|Processing Lattice||passive||||||Each activated leadership card adjacent to this reduces the activation number by 1|||Leadership = Economy? 
-Cargo Hold ||300|Leadership|Trade Goods||roll|5|roll|5|||Reduce the cost of the first module purchased from the market by 100 credits |Cargo Hold||passive||||||Increase hand size by 1 card||||||||||||
-Cease Fire||300|Leadership|||roll|5|roll|6|||Prevent the enemy from attacking until the beginning of your next turn. Attacking again breaks the cease fire and |||||||||||||||||||||
-Trade Agreement||300|Leadership|Insider Contacts||roll|3|||||Improve buying / selling prices by 1 step|||||||||||||||||||||
-Trade Goods||300|Leadership|Market Contacts||roll|5|roll|6|||Discard all cards in the market place and draw replacement cards|Black Market||passive||||||Draw 1 additional cards when populating the market||||||||||||
-|||||||||||||||||||||||||||||||||
-Embassy ||300|Leadership|||roll||||||Improves disposition on first contact|||||||||||||||||||Ceremonial greeting||
-Quick Thinking||300|Leadership|||roll||||||Re-allocate 2 spent cubes to different cards. Previously activated cards still count|||||||||||||||||||||
-More with Less||300|Leadership|||roll|4|||||Reduce the activation number of adjacent cards by 1 t oa minimum of 1|||||||||||||||||||||
-Neural Network||300|Leadership|||roll|2|||||"After activating 1 card of each type (including this card)| reduce the next module activation number by 2 to a minimum of 1"|||||||||||||||||||||
-Phase Modulation||300|Technology|||roll||||||||||||||||||||||||"When activated| re-roll attack dice on laser based conquest cards. You must accept the new result."|||
-Stasis Bubble||300|Technology|Time Freeze ||roll|6|roll|6|||"You cannot move| attack or be attacked until the end of your next turn"|Time Shatter ||||||||"When Time Freeze for 2 or more rounds in a row| take 2 HP damage "||||||||||||
-Mineral Scanner||300|Technology|Search for Resources||||||||Look at the top card of the resources deck. Return the card to the top of the deck or shuffle back into the deck.|||||||||||||||||||||
-Bio-Scanner ||300|Technology|Search for Lifeforms||roll|2|||||Look at the top card of the encounters desk. Return the card to the top of the deck or shuffle back into the deck.|Reveal Lifeforms||roll|2|||||"Draw an encounter card| all revealed cards have the ambush tag"||||||||||||
-Long Range Scanner||300|Technology|Scan||||||||Generate an adjacent sector|||||||||||||||||||||
-Security Breach||300|Technology|||roll|5|||||Remove one enemies trait until the beginning of your next turn|||||||||||||||||||||
-Security Breach||300|Technology|Palsy ||roll|5|||||"Roll verse an enemy ship's HP. If successful| prevent enemy actions until the beginning of your next turn"|||||||||||||||||||||
-Thermal Recycling||300|Technology|Recycle||roll|3|||||"After taking a move action| move 1 additional space"|||||||||||||||||||||
-EMP|||Technology||||||||||||||||||||||||||||||
-High Enerygy Physics||300|Technology|||roll||||||||||||||||||||||||Counts as an adjacent conquest card for laser based weapons|||
-Repair Bay||300|Technology|Repair I||roll|2|||||Repair module or 1 pointh of HP|Repair II|roll|2||||||Repair module or 2 points of HP||||||||||||
-Advanced Shielding ||300|Technology|Shield I||roll|4|||||Reduce 1 incoming attack by 4 points|Shield II |roll|5||||||Reduce 1 incoming attack by 3 points ||||||||||||
-Reactive Shielding ||300|Technology|Re Shield I||roll|2|||||Reduce 1 incoming attack by 1 points|Re Shield II |roll|3||||||Reduce 1 incoming attack by 2 points||roll|4||||||Reduce 1 incoming attack by 2 points|||
-Solar Array||300|Leadership|Supplement||roll|1|||||Decrease the activation dice on another card by 1|Supply|passive|||||||Roll 1 addition die this turn||||||||||||
-Hydrogen Batter||300|Leadership|Store||||||||Store 1 die on this card to a maximum of 3.|Discharge||||||||Activate dice stored on this card in addition to the normal activation pool ||||||||||||
+card_name|image|cost|Type|a1_name|a1_text|a1_num1|a1_ico1|a1_num2|a1_ico2|a1_num3|a1_ico3|a2_name|a2_text|a2_num1|a2_ico1|a2_num2|a2_ico2|a2_num3|a2_ico3|a3_name|a3_text|a3_num1|a3_ico1|a3_num2|a3_ico2|a3_num3|a3_ico3|flavour_text|image|comments_notes
+Missile System Control Room ||300|Conquest|Hunter Seeker Missile||5|dice|5|attack|4||||||||||||||||||||
+Rocket Bay||300|Conquest|Missiles|Attack enemy for 2 points of damage|||||||Missile Swarm|Attack all enemies for 2 points of damage|5|dice|2||||||||||||||
+Laser||300|Conquest|Zap||3|dice|3|attack|2||Focused |Reduce activation dice of this card by 1 for each adjacent laser or technology card|3|damage|2|||||Targeted: Re-rolls can be used on adjacent cards|||||||||
+Medium||300|Conquest|Zzap||3|dice|||||Focused|Reduce activation dice of this card by 1 for each adjacent laser or technology card|3|damage|2||||||||||||||
+Heavy Laser ||300|Conquest|Zzzap||3|dice|3|attack|2||Foucsed|Reduce activation dice of this card by 1 for each adjacent laser or technology card|3|damage|2|||||Targeted: Re-rolls can be used on adjacent cards|||||||||Searing: Add +2 to the roll for each active conquest card / laser module
+Light Railgun||300|Conquest|Slug||1|dice|1|attack|1||Slug||2|damage|1||||||3|damage|1||||||Forceful: Reroll X ballistics attack dice for each adjacent conquest card 
+Heavy Railgun||300|Conquest|Heavy Slug||4|dice|4|attack|2||Heavy Slug||5|damage|2||||||6 |damage|2||||||
+Gatling Gun|||Conquest|Point Defence||||||||||||||||||||||||||
+Hostile Negotiation||300|Conquest||Cubes spent on Conquest abilities count for half their value in Leadership cubes. |4|||ability||||||||||||"Conquest cards are counted as leadership cards for adjacency bonuses| inculding this card "|||||||||
+Ablative Armour||300|Conquest|Protect|This component is always damaged first||passive|||||Sacrificial|When damaged add a counter to this card. After adding the third counter destroy this card. ||||||||+2 AC|||||||||Laser - Reliable (more dice with less damage)
+Reinforced Hull||300|Conquest|Sturdy|Add 4 to maximum HP||passive||||||||||||||+1 HP for each adjacent card |||||||||Ballistic (faster? or better synergy) 
+Experimental drives||300|Conquest|||||||||||||||||||||||||||Rockets - Expensive (large damage)
+Regerative Plating||300|Conquest|Knit Together|Restore +2 HP per turn |6|dice|6|damage|2||||||||||||||||||||
+Deformation||300|Conquest|Swell|Take 2 hull damage. Reduce damage from each source by 2 point to a minimum of 1|5|dice|2|hurt|2|shield|Seep|Regenerate 1 HP at the end of this turn |||||||||||||||||This card should be an event not a module
+Retro-fitted Cargo Hold||300|Conquest|||||||||Cargo Hold|Increase game side by 1 card|||||||||||||||Dice Pool Allocation - Check Warcry Rules||"Iniatiative step for weapons| increased or decreased by dice rolls?"
+||300||||||||||||||||||||||||||||
+Contraband||300|Leadership|Dealer|This ability is worth 500 credits at the market place ||dice|6||||Cargo Hold|Increase hand size by 1 card||passive|||||Unwanted Attention|"In civilized space| draw an encounter for each 6 rolled during activation."|||||||||
+||||||||||||||||||||||||||||||
+AI Module: Evasive Manouvers||300|Leadership||Halve the damage of 1 incoming attack ||dice|5||||||||||||||||||||||
+AI Module: Dodge ||300|Leadership|Co-Routine Dodge|Reallocate module damage to an adjacent card||dice||dice|4||Co-routine Dodge II|Prevent damage to 1 module|6|roll|||||Processing Lattice|Each activated leadership card adjacent to this reduces the activation number by 1||passive|||||||Leadership = Economy? 
+Cargo Hold ||300|Leadership|Trade Goods|Reduce the cost of the first module purchased from the market by 100 credits ||dice|5|dice|5||Cargo Hold|Increase hand size by 1 card||passive|||||||||||||||
+Cease Fire||300|Leadership||Prevent the enemy from attacking until the beginning of your next turn. Attacking again breaks the cease fire and ||dice|5|dice|6||||||||||||||||||||
+Trade Agreement||300|Leadership|Insider Contacts|Improve buying / selling prices by 1 step||dice|3||||||||||||||||||||||
+Trade Goods||300|Leadership|Market Contacts|Discard all cards in the market place and draw replacement cards||dice|5|dice|6||Black Market|Draw 1 additional cards when populating the market||passive|||||||||||||||
+||||||||||||||||||||||||||||||
+Embassy ||300|Leadership||Improves disposition on first contact||dice|||||||||||||||||||||Ceremonial greeting||
+Quick Thinking||300|Leadership||Re-allocate 2 spent cubes to different cards. Previously activated cards still count||dice|||||||||||||||||||||||
+More with Less||300|Leadership||Reduce the activation number of adjacent cards by 1 t oa minimum of 1||dice|4||||||||||||||||||||||
+Neural Network||300|Leadership||"After activating 1 card of each type (including this card)| reduce the next module activation number by 2 to a minimum of 1"||dice|2||||||||||||||||||||||
+Phase Modulation||300|Technology||||dice||||||||||||||"When activated| re-roll attack dice on laser based conquest cards. You must accept the new result."|||||||||
+Stasis Bubble||300|Technology|Time Freeze |"You cannot move| attack or be attacked until the end of your next turn"||dice|6|dice|6||Time Shatter |"When Time Freeze for 2 or more rounds in a row| take 2 HP damage "|||||||||||||||||
+Mineral Scanner||300|Technology|Search for Resources|Look at the top card of the resources deck. Return the card to the top of the deck or shuffle back into the deck.|||||||||||||||||||||||||
+Bio-Scanner ||300|Technology|Search for Lifeforms|Look at the top card of the encounters desk. Return the card to the top of the deck or shuffle back into the deck.||dice|2||||Reveal Lifeforms|"Draw an encounter card| all revealed cards have the ambush tag"||roll|2||||||||||||||
+Long Range Scanner||300|Technology|Scan|Generate an adjacent sector|||||||||||||||||||||||||
+Security Breach||300|Technology||Remove one enemies trait until the beginning of your next turn||dice|5||||||||||||||||||||||
+Security Breach||300|Technology|Palsy |"Roll verse an enemy ship's HP. If successful| prevent enemy actions until the beginning of your next turn"||dice|5||||||||||||||||||||||
+Thermal Recycling||300|Technology|Recycle|"After taking a move action| move 1 additional space"||dice|3||||||||||||||||||||||
+EMP|||Technology|||||||||||||||||||||||||||
+High Enerygy Physics||300|Technology||||dice||||||||||||||Counts as an adjacent conquest card for laser based weapons|||||||||
+Repair Bay||300|Technology|Repair I|Repair module or 1 pointh of HP||dice|2||||Repair II|Repair module or 2 points of HP|roll|2|||||||||||||||
+Advanced Shielding ||300|Technology|Shield I|Reduce 1 incoming attack by 4 points||dice|4||||Shield II |Reduce 1 incoming attack by 3 points |roll|5|||||||||||||||
+Reactive Shielding ||300|Technology|Re Shield I|Reduce 1 incoming attack by 1 points||dice|2||||Re Shield II |Reduce 1 incoming attack by 2 points|roll|3||||||Reduce 1 incoming attack by 2 points|roll|4|||||||
+Solar Array||300|Leadership|Supplement|Decrease the activation dice on another card by 1||dice|1||||Supply|Roll 1 addition die this turn|passive||||||||||||||||
+Hydrogen Batter||300|Leadership|Store|Store 1 die on this card to a maximum of 3.|||||||Discharge|Activate dice stored on this card in addition to the normal activation pool |||||||||||||||||

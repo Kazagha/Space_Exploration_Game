@@ -107,9 +107,9 @@
 .tag_icon{
 	height: auto;
 	#width: 100%;
-	width: 6mm;
+	width: 5mm;
 	#display: block;
-	transform: translate(-7%, 0%)
+	transform: translate(0%, 0%)
 }
 
 .tag_icon_only {
