@@ -71,6 +71,7 @@
 
 .ability {
   max-height: 12mm;
+  min-height: 10mm;
   display: flex;
   display: flex;
   flex-flow: row nowrap;
@@ -105,18 +106,21 @@
 }
 
 .tag_icon{
-	height: auto;
+	#height: auto;
 	#width: 100%;
-	width: 5mm;
+	#width: 5mm;
 	#display: block;
-	transform: translate(0%, 0%)
+	#transform: translate(0%, 0%)
 }
 
 .tag_icon_only {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%)
+	height: auto;
+	width: 5mm;
+	transform: translate(0%, 0%)
+	#position: absolute;
+	#top: 50%;
+	#left: 50%;
+	transform: translate(0%, 42%)
 }
 
 .line{
