@@ -8,8 +8,8 @@
       {{card_name}}
       </div>
 		<div class="abilities_list sg">
-			<div class="ability bg_">
-				<div class="ability_desc bg_">
+			<div class="ability validate" data-validate="{{a1_name}}">
+				<div class="ability_desc bg_ ">
 				<div class="ability_title sg1">== {{a1_name}}==</div>
 				<div class="ability_text bg_a">{{a1_text}}</div>
 				</div>
@@ -31,7 +31,27 @@
 			
 			</div>
 		</div>
-
 		</div>
+		<script>
+		var children = document.getElementsByClassName("validate");		
+		removeBlank(children);
+		
+		function removeBlank(children) {
+			for (var i = 0; i < children.length; i++) {
+			  var child = children[i];
+			  var ability_name = child.dataset.validate;
+			  if (ability_name == "") {
+				console.log("Hiding this element")
+				child.classList.add("hide");
+				child.dataset.validate = "Removed"
+				} else {
+				console.log("Found: " + ability_name); 
+				}
+			child.classList.remove("validate");
+			}
+		}
+		</script>
+		
     <!-- YOUR CUSTOM CODE ENDS HERE -->
+
 </div>
