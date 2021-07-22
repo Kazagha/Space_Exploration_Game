@@ -33,20 +33,27 @@
 		</div>
 		</div>
 		<script>
+		// Get all children that require validation 
 		var children = document.getElementsByClassName("validate");		
 		removeBlank(children);
 		
 		function removeBlank(children) {
 			for (var i = 0; i < children.length; i++) {
-			  var child = children[i];
-			  var ability_name = child.dataset.validate;
-			  if (ability_name == "") {
+			  var child = children[i];  
+			  // Fetch the value to be checked for validotion. 
+			  // Either the name of the ability or the tag icon.
+			  var validate = child.dataset.validate;
+			  // Check if the ability/tag is valid 
+			  if (validate == "") {
 				console.log("Nothing found, hiding this element")
+				// Add the 'hide' class to this element to remove it from the card
 				child.classList.add("hide");
-				child.dataset.validate = "Removed"
+				
+				
 				} else {
-				console.log("Found: " + ability_name); 
+				console.log("Found: " + validate); 
 				}
+			// Remove the 'validate' class tag so this element won't be checked again 
 			child.classList.remove("validate");
 			}
 		}
