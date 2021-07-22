@@ -13,15 +13,15 @@
 				<div class="ability_title sg1">== {{a1_name}}==</div>
 				<div class="ability_text bg_a">{{a1_text}}</div>
 				</div>
-				<div class="ability_tag bg_ ">
+				<div class="ability_tag validate bg_ " data-validate={{a1_ico1}}>
 				  <img class="tag_icon bg_" src="/image/{{a1_ico1}}.png">  
 				  <div class="tag_num bg_">{{a1_num1}}</div>          
 				</div>
-				<div class="ability_tag bg_">
+				<div class="ability_tag validate bg_" data-validate={{a1_ico2}}>
 				  <img class="tag_icon bg_" src="/image/{{a1_ico2}}.png">
 				  <div class="tag_num bg_">{{a1_num2}}</div>  
 				</div>
-				<div class="ability_tag bg_ ">
+				<div class="ability_tag validate bg_ " data-validate={{a1_ico3}}>
 				  <img class="tag_icon bg_" src="/image/{{a1_ico3}}.png">
 				  <div class="tag_num bg_">{{a1_num3}}</div>
 				</div>
@@ -41,7 +41,7 @@
 			  var child = children[i];
 			  var ability_name = child.dataset.validate;
 			  if (ability_name == "") {
-				console.log("Hiding this element")
+				console.log("Nothing found, hiding this element")
 				child.classList.add("hide");
 				child.dataset.validate = "Removed"
 				} else {
