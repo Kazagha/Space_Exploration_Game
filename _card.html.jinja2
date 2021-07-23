@@ -1,6 +1,6 @@
 <div class="card">
     <!-- YOUR CUSTOM CODE STARTS HERE -->
-			<div class="card_panel">
+	<div class="card_panel">
       <div class="card_art bg_">
       ARTWORK
       </div>
@@ -8,29 +8,68 @@
       {{card_name}}
       </div>
 		<div class="abilities_list sg">
+			<!-- Card Ability 1 -->
 			<div class="ability validate" data-validate="{{a1_name}}">
 				<div class="ability_desc bg_ ">
-				<div class="ability_title sg1">== {{a1_name}}==</div>
-				<div class="ability_text bg_a">{{a1_text}}</div>
-				</div>
-				<div class="ability_tag validate" data-validate={{a1_ico1}}>
-				  <img class="validate_icon bg_" src="/image/{{a1_ico1}}.png">  
-				  <div class="tag_num bg_" data-activate="{{a1_num1}}">{{a1_num1}}</div>          
-				</div>
-				<div class="ability_tag validate" data-validate={{a1_ico2}}>
-				  <img class="validate_icon bg_" src="/image/{{a1_ico2}}.png">
-				  <div class="tag_num bg_" data-activate="{{a1_num2}}" >{{a1_num2}}</div>  
-				</div>
-				<div class="ability_tag validate" data-validate={{a1_ico3}}>
-				  <img class="validate_icon bg_" src="/image/{{a1_ico3}}.png">
-				  <div class="tag_num bg_" data-activate="{{a1_num3}}" >{{a1_num3}}</div>
+					<div class="ability_title sg1">== {{a1_name}}==</div>
+					<div class="ability_text bg_a">{{a1_text}}</div>
+					</div>
+					<div class="ability_tag validate" data-validate={{a1_ico1}}>
+					  <img class="validate_icon bg_" src="/image/{{a1_ico1}}.png">  
+					  <div class="tag_num bg_" data-activate="{{a1_num1}}">{{a1_num1}}</div>          
+					</div>
+					<div class="ability_tag validate" data-validate={{a1_ico2}}>
+					  <img class="validate_icon bg_" src="/image/{{a1_ico2}}.png">
+					  <div class="tag_num bg_" data-activate="{{a1_num2}}" >{{a1_num2}}</div>  
+					</div>
+					<div class="ability_tag validate" data-validate={{a1_ico3}}>
+					  <img class="validate_icon bg_" src="/image/{{a1_ico3}}.png">
+					  <div class="tag_num bg_" data-activate="{{a1_num3}}" >{{a1_num3}}</div>
 				</div>
 			</div>
-			<div>
+				
+			<!-- Card Ability 2 -->
+			<div class="ability validate" data-validate="{{a2_name}}">
+				<!-- Card Ability 1 -->
+				<div class="ability_desc bg_ ">
+					<div class="ability_title sg1">== {{a2_name}}==</div>
+					<div class="ability_text bg_a">{{a2_text}}</div>
+					</div>
+					<div class="ability_tag validate" data-validate={{a2_ico1}}>
+					  <img class="validate_icon bg_" src="/image/{{a2_ico1}}.png">  
+					  <div class="tag_num bg_" data-activate="{{a2_num1}}">{{a2_num1}}</div>          
+					</div>
+					<div class="ability_tag validate" data-validate={{a2_ico2}}>
+					  <img class="validate_icon bg_" src="/image/{{a2_ico2}}.png">
+					  <div class="tag_num bg_" data-activate="{{a2_num2}}" >{{a2_num2}}</div>  
+					</div>
+					<div class="ability_tag validate" data-validate={{a2_ico3}}>
+					  <img class="validate_icon bg_" src="/image/{{a2_ico3}}.png">
+					  <div class="tag_num bg_" data-activate="{{a2_num3}}" >{{a2_num3}}</div>
+				</div>
+			</div>
 			
+			<!-- Card Ability 1 -->
+			<div class="ability validate" data-validate="{{a3_name}}">
+				<div class="ability_desc bg_ ">
+					<div class="ability_title sg1">== {{a3_name}}==</div>
+					<div class="ability_text bg_a">{{a3_text}}</div>
+					</div>
+					<div class="ability_tag validate" data-validate={{a3_ico1}}>
+					  <img class="validate_icon bg_" src="/image/{{a3_ico1}}.png">  
+					  <div class="tag_num bg_" data-activate="{{a3_num1}}">{{a3_num1}}</div>          
+					</div>
+					<div class="ability_tag validate" data-validate={{a3_ico2}}>
+					  <img class="validate_icon bg_" src="/image/{{a3_ico2}}.png">
+					  <div class="tag_num bg_" data-activate="{{a3_num2}}" >{{a3_num2}}</div>  
+					</div>
+					<div class="ability_tag validate" data-validate={{a3_ico3}}>
+					  <img class="validate_icon bg_" src="/image/{{a3_ico3}}.png">
+					  <div class="tag_num bg_" data-activate="{{a3_num3}}" >{{a3_num3}}</div>
+				</div>
 			</div>
 		</div>
-		</div>
+	</div>
 		<script>
 		// Get all children that require validation 
 		var children = document.getElementsByClassName("validate");		
