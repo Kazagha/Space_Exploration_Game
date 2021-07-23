@@ -44,17 +44,16 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
-  }
+}
 
 .ability_desc {
   text-align: left;
-  width: 100%;  
+  width: 65%;  
   margin-left: 0.5mm;
   margin-right: 0.5mm;  
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
-  
 }
 
 .ability_text {
@@ -106,8 +105,8 @@
 }
 
 .tag_icon{
-	#height: auto;
-	#width: 100%;
+	height: auto;
+	width: 100%;
 	#width: 5mm;
 	#display: block;
 	#transform: translate(0%, 0%)
@@ -180,7 +179,7 @@
 .sg2 {
   color: blue;  
   #font-variation-settings: "wght" 600, "wdth" 150, "YOPQ" 75;
-  font-variation-settings: "wght" 450, "wdth" 100, "YOPQ" 20, "slnt" -10;
+  font-variation-settings: "wght" 450, "wdth" 100, "YOPQ" 30, "slnt" -10;
    text-transform: uppercase;
   font-size: 12pt;
 }
