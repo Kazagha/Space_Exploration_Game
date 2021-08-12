@@ -4,15 +4,15 @@
       <div class="card_art bg_">
       ARTWORK
       </div>
-      <div class="card_title sg2 bg_a">
+      <div class="card_title sg2 bg_">
       {{card_name}}
       </div>
 		<div class="abilities_list sg">
 			<!-- Card Ability 1 -->
-			<div class="ability validate" data-validate="{{a1_name}}">
+			<div class="ability validate bg_" data-validate="{{a1_name}}">
 				<div class="ability_desc bg_ ">
-					<div class="ability_title sg1">== {{a1_name}}==</div>
-					<div class="ability_text bg_a">{{a1_text}}</div>
+					<div class="ability_title sg1">== {{a1_name}} ==</div>
+					<div class="ability_text bg_">{{a1_text}}</div>
 					</div>
 					<div class="ability_tag validate" data-validate={{a1_ico1}}>
 					  <img class="validate_icon bg_" src="/image/{{a1_ico1}}.png">  
@@ -33,7 +33,7 @@
 				<!-- Card Ability 1 -->
 				<div class="ability_desc bg_ ">
 					<div class="ability_title sg1">== {{a2_name}}==</div>
-					<div class="ability_text bg_a">{{a2_text}}</div>
+					<div class="ability_text bg_">{{a2_text}}</div>
 					</div>
 					<div class="ability_tag validate" data-validate={{a2_ico1}}>
 					  <img class="validate_icon bg_" src="/image/{{a2_ico1}}.png">  
@@ -53,7 +53,7 @@
 			<div class="ability validate" data-validate="{{a3_name}}">
 				<div class="ability_desc bg_ ">
 					<div class="ability_title sg1">== {{a3_name}}==</div>
-					<div class="ability_text bg_a">{{a3_text}}</div>
+					<div class="ability_text bg_">{{a3_text}}</div>
 					</div>
 					<div class="ability_tag validate" data-validate={{a3_ico1}}>
 					  <img class="validate_icon bg_" src="/image/{{a3_ico1}}.png">  
@@ -72,7 +72,7 @@
 	</div>
 		<script>
 		// Get all children that require validation 
-		var children = document.getElementsByClassName("validate");		
+		var children = document.getElementsByClassName("validate");
 		removeBlank(children);
 		
 		function removeBlank(children) {
@@ -93,13 +93,16 @@
 						console.log("This is an ability");
 						// Check if there is an 'activation number' on the card
 						var activate_number = child.getElementsByClassName("tag_num")[0];
+						var tag_icon = child.getElementsByClassName("validate_icon")[0];
 						if(activate_number.dataset.activate == "") {
 							// Hide the 'activation number' part of the card
 							activate_number.classList.add("hide");
 							// Locate the icon element and apply the appropriate formatting
 							tag_icon = child.getElementsByClassName("validate_icon")[0];
 							tag_icon.classList.add("tag_icon_only");
-						} 
+						} else {
+							tag_icon.classList.add("tag_icon");
+						}
 					}
 				}
 			// Remove the 'validate' class tag so this element won't be checked again 
