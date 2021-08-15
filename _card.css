@@ -30,7 +30,7 @@
 }
 
 .card_title {
-  height: 5mm;
+  height: 4mm;
   line-height: 5mm;
   #font-size: 15t;  
   text-align: center;  
@@ -128,6 +128,26 @@
 	background: rgb(0,0,0,1);
 }
 
+.space{
+	height:100%;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 10mm;
+	grid-template-rows: 1fr 2mm;
+	margin-top: auto;
+}
+
+.end {
+	grid-column-start: col-start 2;
+	grid-row-end: row-end 2;
+	width: 5mm;
+	text-align: right;
+	margin-right: 1.5mm;
+	font-size: 4pt;
+}
+
 .hide {
 	display: none;
 }
@@ -161,13 +181,22 @@
   font-weight: 1 999;
 }
 
-.sg, .sg1, .sg2, .sg_num {
+.sg, .sg1, .sg2, .sg_num, .sg_05 {
   font-family: "Science Gothic VF";
+}
+
+.sg_05 {
+  color: brown;
+  font-variation-settings: "wght" 375, "wdth" 75, "YOPQ" 45;
+  font-weight: bold;
+  font-size: 4pt;
 }
 
 .sg {
   color: brown;
   font-variation-settings: "wght" 375, "wdth" 75, "YOPQ" 45;
+  font-weight: bold;
+  font-size: 6.5pt;
 }
 
 
